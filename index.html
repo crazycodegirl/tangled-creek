@@ -27,42 +27,51 @@
             <h2>Web Development</h2>
           </div>
         </header>
-        <nav>
-          <ul>
-            <li>about</li>
-            <li>work</li>
-            <li>contact</li>
-          </ul>
-        </nav>
+        <div class="navigation">
+          <nav>
+            <ul>
+              <li><a href="#about">about</a></li>
+              <li><a href="#work">work</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </nav>
+        </div>
         <main>
-          <img src="img/profile-picture.jpg" alt="Joanne Sullivan" />
-          <p>Hi! My name is Joanne Sullivan, and I am a web developer.</p>
-          <p>I'm based in Boise, Idaho, which pretty much means that I couldn't help but be drawn to the outdoors.
-            I love to camp, hike, bicycle, and I'm just starting to fish. Being outdoors is not the only thing I love.
-            I also love to code.</p>
-          <p>My journey into tech began several years ago when I was working for a major technology company. I happened
-            to be a part of a team that needed an intranet site, and I was in a position to take it on. I had development tools
-            to use, but that didn't stop me from looking at the source code and figuring out what all of those mysterious tags
-            were doing. After I left that job, I got away from web development, but that doesn't mean my fascination faded.</p>
-          <p>In September, 2016, I completed Skillcrush's Front-End Web Developer Blueprint where I updated my HTML skills and learned
-            CSS and JavaScript/JQuery. Skillcrush also introduced me to many of the tools I continue to use, such as GIT and GitHub.</p>
-          <h3>What I do</h3>
-            <p>My focus is on writing clean, well-formatted, semantic HTML by hand. This allows me to ensure that every line I write
-              is easy to read, easy to troubleshoot, and accessible. My CSS is well-organized, easy to read and easy to build on.</p>
-            <p>You can trust me to take your designer's PSD and quickly and easily convert it into a webpage that is a pixel-perfect
-              match.</p>
+          <img class="profile" src="img/profile-picture.jpg" alt="Joanne Sullivan" />
+          <p class="intro">Hi! My name is Joanne Sullivan, and I am a web developer.</p>
+          <div class="about">
+            <p>I'm based in Boise, Idaho, which pretty much means that I couldn't help but be drawn to the outdoors.
+              I love to camp, hike, bicycle, and I'm just starting to fish. Being outdoors is not the only thing I love.
+              I also love to code.</p>
+            <p>My journey into tech began several years ago when I was working for a major technology company. I happened
+              to be a part of a team that needed an intranet site, and I was in a position to take it on. I had development tools
+              to use, but that didn't stop me from looking at the source code and figuring out what all of those mysterious tags
+              were doing. After I left that job, I got away from web development, but that doesn't mean my fascination faded.</p>
+            <p>In September, 2016, I completed Skillcrush's Front-End Web Developer Blueprint where I updated my HTML skills and learned
+              CSS and JavaScript/JQuery. Skillcrush also introduced me to many of the tools I continue to use, such as GIT and GitHub.</p>
+          </div>
+          <div class="work">
+            <h3>What I do</h3>
+              <p>My focus is on writing clean, well-formatted, semantic HTML by hand. This allows me to ensure that every line I write
+                is easy to read, easy to troubleshoot, and accessible. My CSS is well-organized, easy to read and easy to build on.</p>
+              <p>You can trust me to take your designer's PSD and quickly and easily convert it into a webpage that is a pixel-perfect
+                match.</p>
+          </div>
+          <div class="contact">
+            <h3>Like what you see?</h3>
+              <p>Let's meet to discuss your needs</p>
+              <p>Contact me at <a href="mailto:joanne@tangledcreekwebdevelopment.com">joanne[@]tangledcreekwebdevelopment.com</a>
+            <h3>Or find me on the interwebs</h3>
+              <ul>
+                <li><a href="https://twitter.com/jcsullivan69">twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/joanne-sullivan-62415083">linked-in</a></li>
+                <li><a href="https://github.com/crazycodegirl">github</a></li>
+              </ul>
+          </div>
         </main>
         <footer>
-        <h3>Like what you see?</h3>
-        <p>Let's meet to discuss your needs</p>
-        <p>Contact me at <a href="mailto:joanne@tangledcreekwebdevelopment.com">joanne[@]tangledcreekwebdevelopment.com"</a>
-        <h3>Or find me on the interwebs</h3>
-        <ul>
-          <li><a href="https://twitter.com/jcsullivan69">twitter</a></li>
-          <li><a href="https://www.linkedin.com/in/joanne-sullivan-62415083">linked-in</a></li>
-          <li><a href="https://github.com/crazycodegirl">github</a></li>
-        </ul>
-      </footer>
+        <p>&copy; Joanne Sullivan, 2016</p>
+        </footer>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

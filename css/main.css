@@ -140,6 +140,56 @@ textarea {
      padding-right: 1.5em;
   }
 
+  .navigation {
+    height:auto;
+    width: 100%;
+  }
+
+  .navigation a:link {
+    color: #3f4620;
+  }
+
+  .navigation a:visited {
+    color: #993300;
+  }
+
+  nav {
+    float: right;
+    width: 100%;
+  }
+
+  nav ul {
+    margin: 0, 0;
+    padding-left: 19em;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding-left: 4em;
+  }
+
+  nav ul li a {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: .2em;
+    padding-left: 3em;
+    text-decoration: none;
+  }
+
+  main {
+    clear: both;
+    margin: 0 2%;
+  }
+
+  .profile {
+    border-radius: 50%;
+    float: left;
+    padding-right: 2em;
+  }
+
+  .intro {
+    
+  }
 
 
 
