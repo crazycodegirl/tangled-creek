@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Galada|Open+Sans" rel="stylesheet">
+        <script src="https://use.fontawesome.com/b22f0972d8.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Tangerine|Open+Sans" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -38,8 +39,9 @@
         </div>
         <main>
           <img class="profile" src="img/profile-picture.jpg" alt="Joanne Sullivan" />
-          <p class="intro">Hi! My name is Joanne Sullivan, and I am a web developer.</p>
-          <div class="about">
+          <p class="intro">Hi! My name is Joanne Sullivan, <br>
+            and I am a web developer.</p>
+          <div id="about">
             <p>I'm based in Boise, Idaho, which pretty much means that I couldn't help but be drawn to the outdoors.
               I love to camp, hike, bicycle, and I'm just starting to fish. Being outdoors is not the only thing I love.
               I also love to code.</p>
@@ -50,27 +52,32 @@
             <p>In September, 2016, I completed Skillcrush's Front-End Web Developer Blueprint where I updated my HTML skills and learned
               CSS and JavaScript/JQuery. Skillcrush also introduced me to many of the tools I continue to use, such as GIT and GitHub.</p>
           </div>
-          <div class="work">
+          <div id="work">
             <h3>What I do</h3>
               <p>My focus is on writing clean, well-formatted, semantic HTML by hand. This allows me to ensure that every line I write
                 is easy to read, easy to troubleshoot, and accessible. My CSS is well-organized, easy to read and easy to build on.</p>
               <p>You can trust me to take your designer's PSD and quickly and easily convert it into a webpage that is a pixel-perfect
                 match.</p>
+              <p class="portfolio">View my portfolio</p>
           </div>
-          <div class="contact">
-            <h3>Like what you see?</h3>
-              <p>Let's meet to discuss your needs</p>
-              <p>Contact me at <a href="mailto:joanne@tangledcreekwebdevelopment.com">joanne[@]tangledcreekwebdevelopment.com</a>
-            <h3>Or find me on the interwebs</h3>
-              <ul>
-                <li><a href="https://twitter.com/jcsullivan69">twitter</a></li>
-                <li><a href="https://www.linkedin.com/in/joanne-sullivan-62415083">linked-in</a></li>
-                <li><a href="https://github.com/crazycodegirl">github</a></li>
-              </ul>
+          <div id="contact">
+            <div class="email">
+              <h3>Like what you see?</h3>
+                <p>Let's meet to discuss your needs</p>
+                <p>Contact me at <a href="mailto:joanne@tangledcreekwebdevelopment.com">joanne[@]tangledcreekwebdevelopment.com</a>
+            </div>
+            <div class="interweb">
+              <h3>Or find me on the interwebs</h3>
+                <ul>
+                  <li><a href="https://twitter.com/jcsullivan69"><i class="fa fa-twitter-square" aria-hidden="true">twitter</i></a></li>
+                  <li><a href="https://www.linkedin.com/in/joanne-sullivan-62415083"><i class="fa fa-linkedin-square" aria-hidden="true">linked-in</i></a></li>
+                  <li><a href="https://github.com/crazycodegirl"><i class="fa fa-github-square" aria-hidden="true">github</i></a></li>
+                </ul>
+            </div>
           </div>
         </main>
         <footer>
-        <p>&copy; Joanne Sullivan, 2016</p>
+        <p>&copy; Joanne Sullivan/Tangled Creek Web Development, 2016</p>
         </footer>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
