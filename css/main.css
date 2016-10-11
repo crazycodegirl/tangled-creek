@@ -223,6 +223,16 @@ textarea {
   width: 50%;
 }
 
+.email a {
+  color: #262673;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.email a:visited {
+  color: #993300;
+}
+
 .interweb ul {
   padding-left: 0;
 }
@@ -232,8 +242,21 @@ textarea {
   font-size: 1.3em;
 }
 
+.interweb ul li a {
+  color: #262673;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.interweb i {
+  padding-right: 1em;
+}
+
 footer {
   float: left;
+  font-size: .75em;
+  text-align: center;
+  width: 100%;
 
 }
 
