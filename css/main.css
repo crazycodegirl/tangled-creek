@@ -126,18 +126,19 @@ textarea {
    }
 
    h1 {
-     font-family: 'Galada', cursive;
+     font-family: 'Tangerine', cursive;
      font-size: 7em;
      font-weight: normal;
      margin: 0 0;
      padding-right: .5em;
-     padding-top: .25em;
+     padding-top: .15em;
   }
 
    h2 {
      font-size: 2.5em;
      margin-top: -1.25em;
      padding-right: 1.5em;
+     padding-top: .2em;
   }
 
   .navigation {
@@ -184,13 +185,80 @@ textarea {
   .profile {
     border-radius: 50%;
     float: left;
-    padding-right: 2em;
   }
 
   .intro {
-    
+    float: left;
+    font-size: 3em;
+    padding-left: 2em;
   }
 
+  #about {
+    clear: left;
+    padding-top: 1.5em;
+  }
+
+  #work h3 {
+    font-size: 2em;
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  .portfolio {
+    color: #262673;
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+#contact {
+  width: 100%;
+}
+
+.email, .interweb {
+  float: left;
+  height: 10em;
+  padding-bottom: 2em;
+  width: 50%;
+}
+
+.email a {
+  color: #262673;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.email a:visited {
+  color: #993300;
+}
+
+.interweb ul {
+  padding-left: 0;
+}
+
+.interweb ul li {
+  display: block;
+  font-size: 1.3em;
+}
+
+.interweb ul li a {
+  color: #262673;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.interweb i {
+  padding-right: 1em;
+}
+
+footer {
+  float: left;
+  font-size: .75em;
+  text-align: center;
+  width: 100%;
+
+}
 
 
 
