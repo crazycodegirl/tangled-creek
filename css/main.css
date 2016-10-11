@@ -204,7 +204,7 @@ textarea {
     text-align: center;
   }
 
-  .portfolio {
+  .portfolio a {
     color: #262673;
     font-family: 'Tangerine', cursive;
     font-size: 3em;
@@ -257,10 +257,48 @@ footer {
   font-size: .75em;
   text-align: center;
   width: 100%;
-
 }
 
+/* ===========================================================================
+    Begin layout for PORTFOLIO page
+  ============================================================================*/
 
+  
+
+  .project {
+    border: .25em;
+    float: left;
+    padding: 2em;
+    width: 100%;
+  }
+
+  .description {
+    border: 0 0;
+    float: left;
+    padding: .5em .5em;
+    width: 45%;
+  }
+
+  .description h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: .75em;
+  }
+
+  .description h2 {
+    font-size: 1.5em;
+  }
+
+  .image {
+    float: left;
+    width: 45%;
+  }
+
+  .img-1 {
+    padding-left: 3em;
+    width: 75%;
+  }
 
 
 
