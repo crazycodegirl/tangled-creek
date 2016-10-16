@@ -263,19 +263,17 @@ footer {
     Begin layout for PORTFOLIO page
   ============================================================================*/
 
-  
-
   .project {
     border: .25em;
     float: left;
-    padding: 2em;
+    padding: 2em 0;
     width: 100%;
   }
 
   .description {
     border: 0 0;
     float: left;
-    padding: .5em .5em;
+    padding: .5em .5em .5em 4em;
     width: 45%;
   }
 
@@ -290,14 +288,58 @@ footer {
     font-size: 1.5em;
   }
 
+  .description a {
+    color: #262673;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
   .image {
     float: left;
+    padding-left: 3em;
     width: 45%;
   }
 
-  .img-1 {
-    padding-left: 3em;
+  .img-1, .img-2, .img-3 {
+
     width: 75%;
+  }
+
+  .primary, .secondary {
+    border-top: 2px solid #4d4d4d;
+    float: left;
+    height: 10em;
+    padding-bottom: 2em;
+    width: 50%;
+  }
+
+  .primary a {
+    color: #262673;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  .primary a:visited {
+    color: #993300;
+  }
+
+  .secondary ul {
+    padding-left: 0;
+  }
+
+  .secondary ul li {
+    display: block;
+    font-size: 1.3em;
+  }
+
+  .secondary ul li a {
+    color: #262673;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  .secondary i {
+    padding-right: 1em;
   }
 
 
